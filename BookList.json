@@ -1,0 +1,30 @@
+{
+    "missionBooks": [
+        {
+            "name": "Pitched Battles ’22-23 S1",
+            "file": "MissionBooks/PitchedBattles22-23.S1"
+        }
+    ],
+    "secondaryPools": 
+    [
+        {
+            "file": "SecondaryBooks/Generic/Generic"
+        }
+    ],
+    "secondaryBooks": [
+        {
+            "name": "Adeptus Custodians",
+            "file": "SecondaryBooks/ArmySpecific/Codex/HombreLagarto",
+            "factionName": "Lagartones",
+            "group": "Order",
+            "info": "CODEX"
+        },
+        {
+            "name": "Adeptus Custodians",
+            "file": "SecondaryBooks/ArmySpecific/Codex/Lumineth",
+            "factionName": "Lumineth",
+            "group": "Order",
+            "info": "CODEX"
+        }
+    ]
+}

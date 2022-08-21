@@ -1,0 +1,48 @@
+{
+    "secondaries": [
+        {
+            "type": "Main",
+            "id": "tacticasdebatalla",
+            "missionName": "Tacticas B.",
+            "shortDescription": "...",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 10,
+            "maxTurnPoints": 2,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "here goes a description",
+                    "score": 2
+                },
+                {
+                    "description": "here goes another descriptions",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Main",
+            "id": "granestrategia",
+            "missionName": "Gran Estrategia",
+            "shortDescription": "...",
+            "scoringPhase": "Psychic phase",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Completar gran estrategia",
+                    "score": 3
+                }
+            ]
+        }
+    ]
+}

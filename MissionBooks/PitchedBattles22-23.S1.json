@@ -1,0 +1,87 @@
+{
+    "sizes": [
+        {
+            "id": "combatpatrol",
+            "gameSizeName": "Combat Patrol",
+            "description": "up to 500 pts (using incursion missions)",
+            "descriptionSize": "44'' x 30''",
+            "missionsIds": [
+                "enpresenciadeidolos",
+            ],
+            "commandPointsGivenStart": 0,
+            "commandPointsGivenYourTurn": 1,
+            "commandPointsGivenTheirTurn": 1
+        }
+    ],
+    "selectableSecondaries": 
+    [
+        "tacticasdebatalla",
+        "granestrategia"
+    ],
+    "missions": [
+        {
+            "id": "enpresenciadeidolos",
+            "missionName": "En presencia de idolos",
+            "primaryId": "takeandhold",
+            "subPrimariesIds":
+            [
+                "enpresenciadeidolos"
+            ],
+            "map": "",
+            "link": ""
+        }
+    ],
+    "missionSubPrimaries": 
+    [
+        {
+            "type": "Mission Primary",
+            "id": "enpresenciadeidolos",
+            "missionName": "Mata Idolos",
+            "shortDescription": "Mata idolos",
+            "scoringPhase": "End of turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTurnPoints": 3,
+            "maxTotalPoints": 3,
+            "multiScore": true,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Mata una unidad idolo enemiga",
+                    "score": 1
+                }
+            ]
+        }
+    ],
+    "missionPrimaries": [
+        {
+            "type": "Mission Primary",
+            "id": "takeandhold",
+            "missionName": "Take and Hold",
+            "shortDescription": "Control 1, 2 or more objectives",
+            "scoringPhase": "Command phase",
+            "fromRound": 2,
+            "untilRound": 5,
+            "maxTotalPoints": 15,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "Control one or more objectives ",
+                    "score": 1
+                },
+                {
+                    "description": "Control two or more objectives ",
+                    "score": 1
+                },
+                {
+                    "description": "Control more objectives than the opponent ",
+                    "score": 1
+                }
+            ]
+        }
+    ]
+}

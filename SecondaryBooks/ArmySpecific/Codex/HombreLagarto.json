@@ -1,0 +1,28 @@
+{
+    "secondaries": [
+        {
+            "type": "Army Specific",
+            "id": "lagartos",
+            "missionName": "Lagartos",
+            "shortDescription": "Lagartos shit",
+            "scoringPhase": "End Of Turn",
+            "fromRound": 1,
+            "untilRound": 5,
+            "maxTotalPoints": 10,
+            "maxTurnPoints": 2,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": true,
+            "subObjectives": [
+                {
+                    "description": "AAAA",
+                    "score": 2
+                },
+                {
+                    "description": "BBBB",
+                    "score": 2
+                }
+            ]
+        }
+    ]
+}
