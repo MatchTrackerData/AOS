@@ -6,7 +6,7 @@
             "description": "up to 500 pts (using incursion missions)",
             "descriptionSize": "44'' x 30''",
             "missionsIds": [
-                "enpresenciadeidolos",
+                "enpresenciadeidolos"
             ],
             "commandPointsGivenStart": 0,
             "commandPointsGivenYourTurn": 1,
