@@ -13,16 +13,16 @@
     ],
     "secondaryBooks": [
         {
-            "name": "Adeptus Custodians",
+            "name": "Lagatones malignos",
             "file": "SecondaryBooks/ArmySpecific/Codex/HombreLagarto",
             "factionName": "Lagartones",
             "group": "Order",
             "info": "CODEX"
         },
         {
-            "name": "Adeptus Custodians",
+            "name": "Hombres Pescao",
             "file": "SecondaryBooks/ArmySpecific/Codex/Lumineth",
-            "factionName": "Lumineth",
+            "factionName": "Pehcao",
             "group": "Order",
             "info": "CODEX"
         }

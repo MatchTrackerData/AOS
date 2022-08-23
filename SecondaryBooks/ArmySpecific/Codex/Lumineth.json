@@ -1,10 +1,10 @@
 {
     "secondaries": [
         {
-            "type": "Army Specific",
+            "type": "Battle Tactics Idoneth",
             "id": "lumineth",
-            "missionName": "Lumineth",
-            "shortDescription": "Lumineth shit",
+            "missionName": "Idoneth",
+            "shortDescription": "Idoneth shit",
             "scoringPhase": "End Of Turn",
             "fromRound": 1,
             "untilRound": 5,
@@ -15,12 +15,108 @@
             "exclusive": true,
             "subObjectives": [
                 {
-                    "description": "AAAA",
+                    "description": "Assassins of the High Tide: You complete this battle tactic if 2 or more enemy units are destroyed during this turn by attacks made by friendly IDONETH DEEPKIN units that are affected by the High Tide ability.",
                     "score": 2
                 },
                 {
-                    "description": "BBBB",
+                    "description": "Predators of the Deep: Pick 1 unit in your opponent’s starting army that is on the battlefield, that has a Wounds characteristic of 8 or more and that has 0 wounds allocated to it. You complete this tactic if that unit is destroyed during this turn by a friendly AKHELIAN ALLOPEXES unit.",
                     "score": 2
+                },
+                {
+                    "description": "Revenge of the Namarti: You complete this battle tactic if an enemy HERO or MONSTER is destroyed during this turn by an attack made by a friendly NAMARTI unit.",
+                    "score": 2
+                },
+                {
+                    "description": "Deny Trespassers: Pick 1 Gloomtide Shipwreck in your army that is within 12\" of any enemy units. You complete this battle tactic if that Gloomtide Shipwreck is more than 12\" from all enemy units at the end of this turn.",
+                    "score": 2
+                },
+                {
+                    "description": "Trapped in the Undercurrents: You complete this battle tactic if 3 or more friendly IDONETH DEEPKIN units retreated and made a charge move during this turn.",
+                    "score": 2
+                },
+                {
+                    "description": "Isharann Defiance: When you reveal this battle tactic, pick 1 objective wholly within enemy territory. At the end of this turn, you complete this battle tactic if you control that objective and there is a friendly ISHARANN unit within 6\" of that objective.",
+                    "score": 2
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "akhelianpursuit",
+            "missionName": "Akhelian Pursuit",
+            "shortDescription": "if there are 3 or more friendly AKHELIAN units wholly within enemy territory.",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "if there are 3 or more friendly AKHELIAN units wholly within enemy territory.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "thecreepinggloomtide",
+            "missionName": "The Creeping Gloomtide",
+            "shortDescription": "if there are any Gloomtide Shipwrecks in your army on the battlefield and all of them are more than 3\" from all enemy units.",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "if there are any Gloomtide Shipwrecks in your army on the battlefield and all of them are more than 3\" from all enemy units.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "dominionofthedeepones",
+            "missionName": "Dominion of the Deep Ones",
+            "shortDescription": "if the only MONSTERS on the battlefield are friendly LEVIADONS.",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "if the only MONSTERS on the battlefield are friendly LEVIADONS.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "namartiassault",
+            "missionName": "Namarti Assault",
+            "shortDescription": "if 2 or more friendly NAMARTI units are within 3\" of any enemy units, or if the only Battleline units on the battlefield are friendly NAMARTI units.",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "if 2 or more friendly NAMARTI units are within 3\" of any enemy units, or if the only Battleline units on the battlefield are friendly NAMARTI units.",
+                    "score": 3
                 }
             ]
         }

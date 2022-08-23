@@ -1,7 +1,7 @@
 {
     "secondaries": [
         {
-            "type": "Main",
+            "type": "Battle Tactics",
             "id": "tacticasdebatalla",
             "missionName": "Tacticas B.",
             "shortDescription": "...",
@@ -19,7 +19,31 @@
                     "score": 2
                 },
                 {
-                    "description": "here goes another descriptions",
+                    "description": "An Eye for an Eye: You complete this battle tactic if 1 or more friendly units were destroyed in the previous turn and 1 or more enemy units are destroyed during this turn.",
+                    "score": 2
+                },
+                {
+                    "description": "Desecrate their Lands: Pick 1 terrain feature or faction terrain feature that is partially or wholly within your opponent’s territory. You complete this battle tactic if you control that terrain feature at the end of this turn.",
+                    "score": 2
+                },
+                {
+                    "description": "This One’s Mine!: Pick 1 enemy unit on the battlefield. You complete this battle tactic if that unit is destroyed during this turn by an attack made by the model picked to be your general.",
+                    "score": 2
+                },
+                {
+                    "description": "Head-to-Head: Pick 1 enemy GALLETIAN VETERANS unit on the battlefield. You complete this battle tactic if that unit is destroyed during this turn by an attack made by a friendly GALLETIAN VETERANS unit or an ability of a friendly GALLETIAN VETERANS unit.",
+                    "score": 2
+                },
+                {
+                    "description": "Outmuscle: Pick 1 enemy GALLETIAN VETERANS unit that has any models contesting an objective marked as the proving ground. You complete this battle tactic if no models from that enemy unit are contesting the proving ground at the end of this turn.",
+                    "score": 2
+                },
+                {
+                    "description": "Against the Odds: Pick 1 unit from your starting army on the battlefield. You complete this battle tactic if, at the end of this turn, any models from that unit are contesting an objective you control and that objective is not being contested by any enemy GALLETIAN VETERANS models.",
+                    "score": 2
+                },
+                {
+                    "description": "Barge Through Enemy Lines: You complete this battle tactic if there are 2 or more units from your starting army wholly within your opponent’s territory at the end of this turn. If 2 or more of those units are GALLETIAN VETERANS units, score 1 additional victory point.",
                     "score": 2
                 }
             ]
