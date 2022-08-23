@@ -16,7 +16,12 @@
     "selectableSecondaries": 
     [
         "tacticasdebatalla",
-        "granestrategia"
+        "noplaceforweak",
+        "tametheland",
+        "defendwhatsours",
+        "takewhatstheirs",
+        "demonstrationofstrength",
+        "showdominance"
     ],
     "missions": [
         {
