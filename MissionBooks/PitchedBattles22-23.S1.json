@@ -9,8 +9,8 @@
                 "enpresenciadeidolos"
             ],
             "commandPointsGivenStart": 0,
-            "commandPointsGivenYourTurn": 1,
-            "commandPointsGivenTheirTurn": 1
+            "commandPointsGivenYourTurn": 0,
+            "commandPointsGivenTheirTurn": 0
         }
     ],
     "selectableSecondaries": 

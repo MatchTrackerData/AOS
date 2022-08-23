@@ -15,7 +15,7 @@
             "exclusive": true,
             "subObjectives": [
                 {
-                    "description": "here goes a description",
+                    "description": "Gaining Momentum: Pick 1 enemy unit on the battlefield. You complete this battle tactic if that unit is destroyed during this turn and you control more objectives than your opponent at the end of this turn",
                     "score": 2
                 },
                 {
@@ -25,11 +25,11 @@
             ]
         },
         {
-            "type": "Main",
-            "id": "granestrategia",
-            "missionName": "Gran Estrategia",
-            "shortDescription": "...",
-            "scoringPhase": "Psychic phase",
+            "type": "Gran Estrategia",
+            "id": "noplaceforweak",
+            "missionName": "No Place for the Weak",
+            "shortDescription": "If there are no Battleline units from your opponent’s starting army on the battlefield.",
+            "scoringPhase": "End of Game",
             "fromRound": 6,
             "untilRound": 6,
             "maxTotalPoints": 3,
@@ -39,7 +39,107 @@
             "exclusive": false,
             "subObjectives": [
                 {
-                    "description": "Completar gran estrategia",
+                    "description": "If there are no Battleline units from your opponent’s starting army on the battlefield.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "tametheland",
+            "missionName": "Tame the Land",
+            "shortDescription": "You control all of the objectives on the battlefield that are wholly outside your territory.",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "You control all of the objectives on the battlefield that are wholly outside your territory.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "defendwhatsours",
+            "missionName": "Defend What’s Ours",
+            "shortDescription": "If there are no enemy units wholly within your territory",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "If there are no enemy units wholly within your territory",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "takewhatstheirs",
+            "missionName": "Take What’s Theirs",
+            "shortDescription": "If there are more friendly units than enemy units wholly within your opponent’s territory.",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "If there are more friendly units than enemy units wholly within your opponent’s territory.",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "demonstrationofstrength",
+            "missionName": "Demonstration of Strength",
+            "shortDescription": "If there are 3 or more GALLETIAN VETERANS units from your starting army on the battlefield",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "If there are 3 or more GALLETIAN VETERANS units from your starting army on the battlefield",
+                    "score": 3
+                }
+            ]
+        },
+        {
+            "type": "Gran Estrategia",
+            "id": "showdominance",
+            "missionName": "Show Dominance",
+            "shortDescription": "If there are any friendly GALLETIAN VETERANS units in each quarter of the battlefield.",
+            "scoringPhase": "End of Game",
+            "fromRound": 6,
+            "untilRound": 6,
+            "maxTotalPoints": 3,
+            "maxTurnPoints": 3,
+            "multiScore": false,
+            "scoreOnce": false,
+            "exclusive": false,
+            "subObjectives": [
+                {
+                    "description": "If there are any friendly GALLETIAN VETERANS units in each quarter of the battlefield.",
                     "score": 3
                 }
             ]
